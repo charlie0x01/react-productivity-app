@@ -1,19 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./Stopwatch.css";
 
-const Stopwatch = ({ endTime }) => {
+const Stopwatch = () => {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
   const [minutes, setMinutes] = useState(0);
   const [hours, setHours] = useState(0);
   const [stopped, setStopped] = useState(true);
 
-
-  const getTime = () => {
-    let sec = ("0" + Math.floor(time)).slice(-2)
-    let mins0 = ("0" + Math.floor(time)).slice(-2)
-    let hrs = ("0" + Math.floor(time)).slice(-2)
-  }
 
   useEffect(() => {
     let interval;
