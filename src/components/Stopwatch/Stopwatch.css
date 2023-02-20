@@ -1,17 +1,20 @@
 .stopwatch {
-  padding: 8px;
+  padding: 5px;
   border-radius: 25px;
   display: inline-flex;
   align-items: center;
-  border: 1px solid rgb(121, 121, 121);
-  font-size: 18px;
+  font-weight: 600;
 }
 
 .stopwatch button {
   border: none; /* Remove borders */
   /* color: white; White text */
   padding: 4px 8px;
-  font-size: 18px; /* Set a font size */
   cursor: pointer;
   border-radius: 25px;
+  margin: 0 2px 0 2px;
+}
+
+.stopwatch .timer {
+  margin: 0 2px 0 2px;
 }
