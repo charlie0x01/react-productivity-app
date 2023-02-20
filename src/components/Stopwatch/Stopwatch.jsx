@@ -85,11 +85,7 @@ const Stopwatch = ({ endTime }) => {
           ) : (
             <></>
           )}
-          {time > 0 ? (
             <span>{("0" + Math.floor(time)).slice(-2) + "s"}</span>
-          ) : (
-            <></>
-          )}
         </div>
       ) : (
         <></>

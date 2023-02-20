@@ -12,9 +12,12 @@
   padding: 4px 8px;
   cursor: pointer;
   border-radius: 25px;
-  margin: 0 2px 0 2px;
 }
 
 .stopwatch .timer {
   margin: 0 2px 0 2px;
+}
+
+.box {
+  padding: 8px;
 }
