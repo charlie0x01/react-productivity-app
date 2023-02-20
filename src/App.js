@@ -1,10 +1,15 @@
-
+import React from "react";
+import Stopwatch from "./components/Stopwatch/Stopwatch";
+// import Stopwatch from "./components/Stopwatch/Stopwatch";
+import "./index.css";
 
 function App() {
   return (
-    <div className="App">
-      hello world
+    <>
+    <div className="box">
+      <Stopwatch/>
     </div>
+    </>
   );
 }
 
